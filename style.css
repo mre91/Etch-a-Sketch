@@ -2,15 +2,26 @@
     background-color: white;
     border-color: black;
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     height: 25px;
     width: 25px;
 }
 
 #container {
     display: flex;
-    flex-wrap: wrap;
     margin: auto;
+    max-height: auto;
     max-width: 960px;
-    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#reset {
+    margin-top: 25px;
+    position: relative;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
