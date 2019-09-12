@@ -1,4 +1,4 @@
-function createGrid(numCells) {
+function genDivs(numCells) {
     for (let i = 0; i < numCells; i++) {
         let row = document.createElement('div');
         row.className = 'row';
@@ -10,3 +10,5 @@ function createGrid(numCells) {
         }
     }
 }
+
+window.onload = genDivs(16);
