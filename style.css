@@ -1,21 +1,17 @@
-.cell {
-    background-color: white;
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
-    height: 25px;
-    width: 25px;
+body {
+    background: #222222;
 }
 
 #container {
-    display: flex;
-    margin: auto;
-    max-height: auto;
-    max-width: 960px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background-color: white;
+    border-color: crimson;
+    border-style: solid;
+    border-width: 5px;
+    display: grid;
+    grid-template-columns: repeat(var(--numCol), auto);
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
 }
 
 #reset {
@@ -24,4 +20,8 @@
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.cell {
+    background-color: white;
 }
