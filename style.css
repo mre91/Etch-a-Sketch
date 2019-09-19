@@ -22,14 +22,14 @@ button {
     padding-bottom: 0px;
     position: relative;
     text-align: center;
-    width: 520px;
+    width: 580px;
 }
 
 #container {
     background-color: white;
     border-color: crimson;
     border-style: solid;
-    border-width: 10px;
+    border-width: 10px 40px 10px 40px;
     display: grid;
     grid-template-columns: repeat(var(--numCol), auto);
     margin: 0 auto;
@@ -45,9 +45,8 @@ button {
     font-size: large;
     font-weight: bold;
     margin: 0 auto;
-    padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
     text-align: center;
-    width: 520px;
+    width: 580px;
 }
